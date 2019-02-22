@@ -1,0 +1,22 @@
+= go-template-tester
+
+Testing your golang templates including http://github.com/Masterminds/sprig[sprig] functions.
+
+Usage:
+----
+./go-template-tester [TEMPLATE] [INPUT]...
+----
+
+Example:
+----
+# ./go-template-tester "{{ . }}: {{ . | lower | replace \"a\" \"d\" }}" "ACdc" "AbCdE"
+ACdc: dcdc
+AbCdE: dbcde
+----
+
+== Build go-template-tester
+
+----
+# go get
+# go build
+----
