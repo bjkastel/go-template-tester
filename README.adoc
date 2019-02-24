@@ -1,6 +1,6 @@
 = go-template-tester
 
-Testing your golang templates including http://github.com/Masterminds/sprig[sprig] functions.
+Testing golang templates including http://github.com/Masterminds/sprig[sprig] template functions.
 
 Usage:
 ----
