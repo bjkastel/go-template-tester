@@ -9,8 +9,8 @@ Usage:
 
 Example:
 ----
-# ./go-template-tester "{{ . }}: {{ . | lower | replace \"a\" \"d\" }}" "ACdc" "AbCdE"
-ACdc: dcdc
+# ./go-template-tester "{{ . | lower | replace \"a\" \"d\" }}" "ACdc" "AbCdE"
+ACdc : dcdc
 AbCdE: dbcde
 ----
 
